@@ -1,0 +1,11 @@
+*印出 1–100 的偶數
+
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+	for(int a; a<101; a++){
+		if(a%2 == 0){
+			cout << a << endl;
+		}
+	}
+}

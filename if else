@@ -1,0 +1,46 @@
+#練習1
+
+##判斷成績
+
+60分以上及格
+70分以上一般
+80分以上不錯
+90分以上厲害
+100分666
+
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+	int a;
+	cin >> a;
+	if(a == 100){
+		cout << "666" ; 
+	}else if(a >= 90){
+		cout << "厲害" ; 
+	}else if(a >= 80){
+		cout << "不錯" ; 
+	}else if(a >= 70){
+		cout << "一般" ; 
+	}else if(a >= 60){
+		cout << "及格" ; 
+	}else{
+		cout << "加油" ; 
+	}
+}
+
+#練習2
+
+##是否為完全平方數
+
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+	int a;
+	cin >> a;
+	double answear = std::sqrt(a);
+	if(answear == (int)answear){
+		cout << "~~~是~~~" ; 
+	}else{
+		cout << "~~~不是~~~" ; 
+	}
+}

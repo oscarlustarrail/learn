@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+	long long a;
+	long long b = 0;
+	cin >> a;
+	for(long long n = 2; n * n < a; n++){
+		if(a%n == 0){
+			b+=1;
+		}
+	}
+	if(b == 0){
+		cout << "是質數"<< endl;
+	}else{
+		cout << "不是質數"<< endl;
+	}
+
+}
